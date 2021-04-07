@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link{
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	display:contents;
+}
+a:visited{
+	color: rgba(131,131,131,1.00)
+}
+a:hover{
+	color: #FF5800;
+}
+.zoomin img {
+     
+      width: 150px ; 
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+  .zoomin img:hover {
+      width:300px;
+     
+    }
+
+.shadow {
+  box-shadow:15px 15px 10px #888888;
+}
+
+ .card {
+        width:30px;
+        height: 30px;
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+}
+
+
+
